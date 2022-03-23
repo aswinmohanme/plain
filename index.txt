@@ -18,7 +18,13 @@ Navigation
 All Posts
 =========
 * 2022-03-23 [Phoenix LiveView in Production](/liveview-production.txt)
-    #elixir, #phoenix, #live_view
+    #indie_paper, #elixir, #phoenix, #live_view
     I used Phoenix LiveView in Production for my last startup IndiePaper. This
     blog post outlines why I used LiveView, issues I came across, the good parts
     and gotchas to look out for.
+
+* 2022-01-14 [Superfast and Practical Webapps using NextJS, Vercel, LiveView and Fly.io](/superfast-liveview.txt)
+    #indie_paper, #elixir, #phoenix, #live_view, #nextjs, #vercel, #react
+    IndiePaper has a NextJS frontend which proxies requests to the LiveView
+    backend. This means that I can easily edit and server the marketing pages separtely and make it
+    available even when the main site goes down. This post outlines the setup.
