@@ -11,8 +11,8 @@ handcrafted by someone interested in code, design and life
 
 Navigation
 ==========
-  * [about](/about.txt)
-  * [now](/now.txt)
+  - [about](/about.txt)
+  - [now](/now.txt)
 
 
 All Posts
