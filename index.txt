@@ -23,7 +23,8 @@ All Posts
     blog post outlines why I used LiveView, issues I came across, the good parts
     and gotchas to look out for.
 
-* 2022-01-14 [Superfast and Practical Webapps using NextJS, Vercel, LiveView and Fly.io](/superfast-liveview.txt)
+* 2022-01-14 [Superfast and Practical Webapps using NextJS, Vercel, LiveView and
+Fly.io](/superfast-liveview.txt)
     #indie_paper, #elixir, #phoenix, #live_view, #nextjs, #vercel, #react
     IndiePaper has a NextJS frontend which proxies requests to the LiveView
     backend. This means that I can easily edit and server the marketing pages separtely and make it
