@@ -169,8 +169,8 @@ are using LiveView we need some additional setup.
         config :your_app, YourAppWeb.Endpoint,
         url: [host: host, port: 443],
         check_origin: [
-        "https://#{host}",
-        "https://app.#{host}"
+            "https://#{host}",
+            "https://app.#{host}"
         ],
 
     ```
