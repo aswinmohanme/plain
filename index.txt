@@ -1,6 +1,6 @@
 
 [Aswin Mohan](https://aswinmohan.me)
-========================================
+====================================
 handcrafted by someone interested in code, design and life
 
 * Contact
@@ -11,8 +11,8 @@ handcrafted by someone interested in code, design and life
 
 Navigation
 ==========
-  * [about](/about)
-  * [now](/now)
+  * [about](/about.txt)
+  * [now](/now.txt)
 
 
 All Posts
