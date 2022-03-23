@@ -27,5 +27,5 @@ All Posts
 Fly.io](/superfast-liveview.txt)
     #indie_paper, #elixir, #phoenix, #live_view, #nextjs, #vercel, #react
     IndiePaper has a NextJS frontend which proxies requests to the LiveView
-    backend. This means that I can easily edit and server the marketing pages separtely and make it
+    backend. This means that I can easily edit and serve the marketing pages separtely and make it
     available even when the main site goes down. This post outlines the setup.
