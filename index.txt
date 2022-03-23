@@ -4,7 +4,7 @@
 handcrafted by someone interested in code, design and life
 
 * Contact
-  [email](heythere@aswinmohan.me)
+  [email](mailto:heythere@aswinmohan.me)
   [github](https://github.com/aswinmohanme)
   [twitter](https://twitter.com/aswinmohanme)
 
