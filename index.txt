@@ -1,7 +1,24 @@
 
-ASWIN MOHAN
+[Aswin Mohan](https://aswinmohan.me)
+========================================
 rant of someone interested in code, design and life
 
-email: heythere@aswinmohan.me
-github: https://github.com/aswinmohanme
-twitter: https://twitter.com/aswinmohanme
+* Contact
+  [email](heythere@aswinmohan.me)
+  [github](https://github.com/aswinmohanme)
+  [twitter](https://twitter.com/aswinmohanme)
+
+
+Navigation
+==========
+  * [about](/about)
+  * [now](/now)
+
+
+All Posts
+=========
+* 2022-03-23 [Phoenix LiveView in Production](/liveview-in-production)
+    #elixir, #phoenix, #live_view
+    I used Phoenix LiveView in Production for my last startup IndiePaper.
+    This blog post outlines why I used LiveView, issues I came across,
+    the good parts and gotchas to look out for.
