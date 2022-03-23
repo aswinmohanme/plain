@@ -4,15 +4,20 @@
 handcrafted by someone interested in code, design and life
 
 * Contact
-  [email](mailto:heythere@aswinmohan.me)
-  [github](https://github.com/aswinmohanme)
-  [twitter](https://twitter.com/aswinmohanme)
+  - [email](mailto:heythere@aswinmohan.me)
+  - [github](https://github.com/aswinmohanme)
+  - [twitter](https://twitter.com/aswinmohanme)
 
-
-Navigation
-==========
+* Navigation
   - [about](/about.txt)
   - [now](/now.txt)
+
+
+How to Read this Blog
+=====================
+This blog is completely made up of a collection of txt files, hence there are no
+clickable links. All links are in the format [Link Title](url). If the url is relative, paste it
+after the root domain to go the right page. If it is absolute, replace the entire URL.
 
 
 All Posts
