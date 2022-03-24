@@ -3,9 +3,16 @@
 Superfast and Practical Webapps using NextJS, Vercel, LiveView and Fly.io
 =========================================================================
 
-Making fast web apps is hard but a tremendous [business oppurtunity](https://www.businesswire.com/news/home/20180724005488/en/Slow-Websites-Are-Silent-Killers-for-Businesses). It's also the right thing to do. In this blog post, I'll explain how [IndiePaper](https://indiepaper.me) achieves decent performance with NextJS, and Phoenix hosted on Vercel and Fly.io respectively. Big thanks to Plausible.io for pointing out the [way](https://github.com/plausible/analytics/discussions/1593).
+Making fast web apps is hard but a tremendous [business
+oppurtunity](https://www.businesswire.com/news/home/20180724005488/en/Slow-Websites-Are-Silent-Killers-for-Businesses).
+It's also the right thing to do. In this blog post, I'll explain how
+[IndiePaper](https://indiepaper.me) achieves decent performance with NextJS, and Phoenix hosted on
+Vercel and Fly.io respectively. Big thanks to Plausible.io for pointing out the
+[way](https://github.com/plausible/analytics/discussions/1593).
 
-Making a fast web app is complex, It requires tuning a lot of moving parts. The technology that you chose has a measurable impact on performance. We chose these technologies because they optimize for and care about performance.
+Making a fast web app is complex, It requires tuning a lot of moving parts. The technology that you
+chose has a measurable impact on performance. We chose these technologies because they optimize for
+and care about performance.
 
 ### NextJS
 It's a framework based on React, geared towards static and dynamic web apps. It has a lot of sane defaults and can get you a halfway decent SPA experience out of the box. It has a couple of features like optimized images, preloading routes, chunked downloads and dead code elimination that makes the user experience insanely fast.
