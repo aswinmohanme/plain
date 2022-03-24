@@ -16,8 +16,9 @@ handcrafted by someone interested in code, design and life
 How to Read this Blog
 =====================
 This blog is completely made up of a collection of txt files, hence there are no
-clickable links. All links are in the format [Link Title](url). If the url is relative, paste it
-after the root domain to go the right page. If it is absolute, replace the entire URL.
+clickable links. All links are in the format [Link Title](url). If the url is
+relative, paste it after the root domain to go the right page. If it is
+absolute, replace the entire URL.
 
 All posts are summarised here with tags. Search for the tags with the browser
 find function.
@@ -25,15 +26,18 @@ find function.
 
 All Posts
 =========
+
 * 2022-03-23 [Phoenix LiveView in Production](/liveview-production.txt)
 #indie_paper, #elixir, #phoenix, #live_view
-I used Phoenix LiveView in Production for my last startup IndiePaper. This
-blog post outlines why I used LiveView, issues I came across, the good parts
-and gotchas to look out for.
+I used Phoenix LiveView in Production for my last startup IndiePaper. This blog
+post outlines why I used LiveView, issues I came across, the good parts and
+gotchas to look out for.
+
 
 * 2022-01-14 [Superfast and Practical Webapps using NextJS, Vercel, LiveView and
 Fly.io](/superfast-liveview.txt)
 #indie_paper, #elixir, #phoenix, #live_view, #nextjs, #vercel, #react
-IndiePaper has a NextJS frontend which proxies requests to the LiveView
-backend. This means that I can easily edit and serve the marketing pages separtely and make it
-available even when the main site goes down. This post outlines the setup.
+IndiePaper has a NextJS frontend which proxies requests to the LiveView backend.
+This means that I can easily edit and serve the marketing pages separtely and
+make it available even when the main site goes down. This post outlines the
+setup.
