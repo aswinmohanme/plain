@@ -165,7 +165,7 @@ rejected.
     check_origin: [
       "https://#{host}",
       "https://app.#{host}"
-    ],
+  ],
 
 ```
 
