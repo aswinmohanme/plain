@@ -21,7 +21,7 @@ relative, paste it after the root domain to go the right page. If it is
 absolute, replace the entire URL.
 
 All posts are summarised here with tags. Search for the tags with the browser
-find function.
+find function, eg: #best to find the best posts.
 
 
 All Posts

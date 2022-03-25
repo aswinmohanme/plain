@@ -19,3 +19,5 @@ about the project. I'm a single developer working on IndiePaper. It is a book
 publishing platform, where authors can write out their book in our online text
 editor and we typeset beautiful PDF books from them. The app is a simple CRUD
 app with auth, uploads and a custom typesetting engine.
+
+I use TDD to develop the app and it's deployed on [fly.io]().
