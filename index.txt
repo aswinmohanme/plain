@@ -47,3 +47,7 @@ When setting up legacy projects, you might need to set up the corresponding
 packages. Some of these packages and runtimes might not work with the latest
 version of OpenSSL. This post outlines how to compile them with the older
 OpenSSL version 1.0.
+
+* 2019-12-08 [Turning Off Syntax Highlighting](/syntax-off.txt)
+#code, #workflow
+My experience with turning off syntax highlighting for my code editor.
