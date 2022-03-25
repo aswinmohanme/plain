@@ -33,7 +33,7 @@ love with it.
 ![Minimal spacemacs setup with elixir](/images/emacs_screenshot.png)
 
 
-### What has changed ?
+* What has changed ?
 Much to my surprise I experienced most of the benefits explained in the posts.
 
 - Less distraction, I am a huge proponent of minimalist industrial design and
@@ -49,13 +49,13 @@ and did found a marked increase in productivity from when I disabled color
 scheme.
 
 
-### Will I continue using it ?
+* Will I continue using it ?
 Yes, It's like a breath of fresh air once you get used to it and trust me you'll
 get used to it fast. I loved it so much that I disabled the syntax highlighting
 on my fish shell and VSCode.
 
 
-### Should you use it ?
+* Should you use it ?
 How am I supposed to know :) ? We have had color schemes for so long and it
 might seem stupid to turn it off, but how would you know if you haven't tried
 it. I urge you to try this for one week and see if you like it or not. Don't
