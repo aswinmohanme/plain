@@ -34,7 +34,7 @@ gotchas to look out for.
 
 * 2022-01-14 [Superfast and Practical Webapps using NextJS, Vercel, LiveView and
 Fly.io](/superfast-liveview.txt)
-#indie_paper, #elixir, #phoenix, #live_view, #nextjs, #vercel, #react
+#best, #indie_paper, #elixir, #phoenix, #live_view, #nextjs, #vercel, #react
 IndiePaper has a NextJS frontend which proxies requests to the LiveView backend.
 This means that I can easily edit and serve the marketing pages separtely and
 make it available even when the main site goes down. This post outlines the
@@ -51,7 +51,6 @@ OpenSSL version 1.0.
 * 2019-12-08 [Turning Off Syntax Highlighting](/syntax-off.txt)
 #code, #workflow
 My experience with turning off syntax highlighting for my code editor.
-
 
 * 2020-04-12 [Implementing Autocomplete Select in Rails 6](/autocomplete-rails.txt)
 #rails-6, #rails, #autocomplete, #javascript, #ruby
