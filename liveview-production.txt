@@ -3,3 +3,6 @@
 
 Phoenix LiveView in Production
 ==============================
+
+I came across a [thread]() on ElixirForum that highglighted how everyone was
+using LiveView in their production apps.

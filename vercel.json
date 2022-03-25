@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/posts/superfast-vercel-liveview-fly",
+      "destination": "/superfast-liveview.txt",
+      "permanent": true
+    }
+  ]
+}
