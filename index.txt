@@ -51,3 +51,8 @@ OpenSSL version 1.0.
 * 2019-12-08 [Turning Off Syntax Highlighting](/syntax-off.txt)
 #code, #workflow
 My experience with turning off syntax highlighting for my code editor.
+
+
+* 2020-04-12 [Implementing Autocomplete Select in Rails 6](/autocomplete-rails.txt)
+#rails-6, #rails, #autocomplete, #javascript, #ruby
+Create an autocomplete dropdown that associated records in Rails 6.
