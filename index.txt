@@ -39,8 +39,7 @@ This means that I can easily edit and serve the marketing pages separtely and
 make it available even when the main site goes down. This post outlines the
 setup.
 
-* 2020-06-23 [Compiling OpenSSL 1.0 for Older Package
-Versions](/compile-old-ssl.txt)
+* 2020-06-23 [Compiling OpenSSL 1.0 for Older Package Versions](/compile-old-ssl.txt)
 #openssl, #legacy-code, #code, #python, #elixir, #erlang, #asdf
 When setting up legacy projects, you might need to set up the corresponding
 packages. Some of these packages and runtimes might not work with the latest
