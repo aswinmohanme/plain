@@ -1,10 +1,9 @@
 
 2020-04-12
 
+
 Implementing Autocomplete Select in Rails 6
 ===========================================
-#rails-6, #rails, #autocomplete, #javascript, #ruby
-
 `simple-form` makes creating forms that handle associations in rails a breeze.
 It creates a select dropdown that works really well for use cases where the
 number of records are few. But once the number of options in the select box gets

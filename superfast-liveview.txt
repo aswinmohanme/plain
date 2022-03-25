@@ -1,8 +1,8 @@
 2022-01-14
 
+
 Superfast and Practical Webapps using NextJS, Vercel, LiveView and Fly.io
 =========================================================================
-
 Making fast web apps is hard but a tremendous [business
 oppurtunity](https://www.businesswire.com/news/home/20180724005488/en/Slow-Websites-Are-Silent-Killers-for-Businesses).
 It's also the right thing to do. In this blog post, I'll explain how

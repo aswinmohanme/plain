@@ -1,8 +1,21 @@
 
 2022-03-23, Work in Progress
 
+
 Phoenix LiveView in Production
 ==============================
+I came across a
+[thread](https://elixirforum.com/t/are-you-all-in-on-liveview-how-are-you-using-it/41628/14)
+on ElixirForum that highglighted how everyone was using LiveView in their
+production apps. It also highlighted some awesome blog posts about using
+LiveView in production. Since IndiePaper is a Phoenix LiveView app, I thought it
+would be nice to share my expereince with it.
 
-I came across a [thread]() on ElixirForum that highglighted how everyone was
-using LiveView in their production apps.
+
+Context
+-------
+Before we jump right in, it would be wise to share about who I am and specifics
+about the project. I'm a single developer working on IndiePaper. It is a book
+publishing platform, where authors can write out their book in our online text
+editor and we typeset beautiful PDF books from them. The app is a simple CRUD
+app with auth, uploads and a custom typesetting engine.

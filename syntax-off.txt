@@ -1,9 +1,9 @@
 
 2019-12-08
 
+
 Turning Off Syntax Highlighting
 ===============================
-
 Few weeks back I stumbled on this [blog
 post](https://www.robertmelton.com/project/syntax-highlighting-off/) which
 stated the obvious benefits of disabling syntax highlighting for your code. I

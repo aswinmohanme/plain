@@ -1,10 +1,9 @@
 
 2020-06-23
 
+
 Compiling OpenSSL 1.0 for Older Package Versions
 ================================================
-#openssl, #legacy-code, #code, #python, #elixir, #erlang, #asdf
-
 Running older versions of software is always a pain. There will be missing
 libraries, compilation errors and what not. These issues can be mitigated little
 by using a package manager that manages the different versions of the software.
