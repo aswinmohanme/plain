@@ -4,11 +4,11 @@
 Superfast Webapps using NextJS, Vercel, LiveView and Fly.io
 ===========================================================
 Making fast web apps is hard but a tremendous [business
-oppurtunity](https://www.businesswire.com/news/home/20180724005488/en/Slow-Websites-Are-Silent-Killers-for-Businesses).
+oppurtunity](www.businesswire.com/news/home/20180724005488/en/Slow-Websites-Are-Silent-Killers-for-Businesses).
 It's also the right thing to do. In this blog post, I'll explain how
-[IndiePaper](https://indiepaper.me) achieves decent performance with NextJS, and
+[IndiePaper](indiepaper.me) achieves decent performance with NextJS, and
 Phoenix hosted on Vercel and Fly.io respectively. Big thanks to Plausible.io for
-pointing out the [way](https://github.com/plausible/analytics/discussions/1593).
+pointing out the [way](github.com/plausible/analytics/discussions/1593).
 
 Making a fast web app is complex, It requires tuning a lot of moving parts. The
 technology that you chose has a measurable impact on performance. We chose these
@@ -79,7 +79,7 @@ Using Vercel as a Reverse Proxy
 -------------------------------
 We want all our requests to first go to Vercel and need Vercel to forward all
 requests it cannot fulfil to our LiveView app. NextJS has a handy feature called
-[Rewrite Fallback](https://nextjs.org/docs/migrating/incremental-adoption#rewrites),
+[Rewrite Fallback](nextjs.org/docs/migrating/incremental-adoption#rewrites),
 that enable us to do just that.
 
 When a request hits our NextJS app it checks if the NextJS app has that route.
@@ -173,20 +173,20 @@ rejected.
 Results
 -------
 IndiePaper follows this architecture. You can check it out at
-[https://indiepaper.me](https://indiepaper.me)
+[https://indiepaper.me](indiepaper.me)
 
 - The root domain points to a configured
-[https://github.com/timlrx/tailwind-nextjs-starter-blog](https://github.com/timlrx/tailwind-nextjs-starter-blog)
+[https://github.com/timlrx/tailwind-nextjs-starter-blog](github.com/timlrx/tailwind-nextjs-starter-blog)
 blog hosted on Vercel. It handles all the traffic from around the world and
 serves the blog on `https://indiepaper.me/blog`. I can edit blog posts add and
 remove pages, all without touching the main phoenix app.
 
 - Once the author signs up, the author is taken to
-[https://indiepaper.me/dashboard](https://indiepaper.me/dashboard). It is hosted
+[https://indiepaper.me/dashboard](indiepaper.me/dashboard). It is hosted
 on `app.indiepaper.me` proxied through Vercel. Once the author reaches the
 backend, LiveView takes over. No further HTTP requests are made as the
 navigation takes place through
-[live_session](https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.Router.html#live_session/3).
+[live_session](hexdocs.pm/phoenix_live_view/Phoenix.LiveView.Router.html#live_session/3).
 The WebSocket directly connects to Fly.io without going through Vercel making
 the app navigation smooth and fast.
 

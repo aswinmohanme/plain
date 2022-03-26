@@ -1,12 +1,12 @@
 
-[Aswin Mohan](https://aswinmohan.me)
+[Aswin Mohan](aswinmohan.me)
 ====================================
 handcrafted by someone interested in code, design and life
 
 * Contact
   - [email](mailto:heythere@aswinmohan.me)
-  - [github](https://github.com/aswinmohanme)
-  - [twitter](https://twitter.com/aswinmohanme)
+  - [github](github.com/aswinmohanme)
+  - [twitter](twitter.com/aswinmohanme)
 
 * Navigation
   - [about](/about.txt)

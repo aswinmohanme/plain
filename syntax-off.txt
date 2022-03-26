@@ -5,10 +5,10 @@
 Turning Off Syntax Highlighting
 ===============================
 Few weeks back I stumbled on this [blog
-post](https://www.robertmelton.com/project/syntax-highlighting-off/) which
+post](www.robertmelton.com/project/syntax-highlighting-off/) which
 stated the obvious benefits of disabling syntax highlighting for your code. I
 would have been surprised if I hadn't read [this
-one](https://www.benkuhn.net/syntax) before. Both the blog posts advocate
+one](www.benkuhn.net/syntax) before. Both the blog posts advocate
 disabling colors schemes completely or minimally.
 
 At the outset this seems absurd for anyone who has been coding for any length of
@@ -65,4 +65,4 @@ This is one of the reasons I love computing so much, there are like a million
 ways of doing something including the way we write code. So give `:syntax off` a
 try and see how that goes.
 
-[Discuss on HN](https://news.ycombinator.com/item?id=21734436)
+[Discuss on HN](news.ycombinator.com/item?id=21734436)
