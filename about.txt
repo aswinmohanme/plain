@@ -9,28 +9,28 @@ trace of electronics on the side.
 
 Timeline
 --------
-- 1999: born in Kerala/India
+- 1999: born in kerala/india
 - 2007: sees and uses a computer for the very first time
 - 2009: sees and searches on the internet for the very first time
 - 2013: gets my first laptop after pestering my dad for 4 straight years
 - 2014: starts my first website [bloggytricks.in]()
-- 2014: starts learning to code with C++ from the New Boston Youtube channel
+- 2014: starts learning to code with c++ from the new boston youtube channel
 - 2015: makes my first programming language
 - 2016: makes my first operating system as an high school project
-- 2016: graduates top of state in Computer Science
-- 2016: joins College of Engineering Chengannur with CS Major
-- 2017: starts learning mobile development with React Native
-- 2018: publishes first app in app store
-- 2018: publishes LessPhone in playstore
+- 2016: graduates top of state in computer science
+- 2016: joins college of engineering chengannur with cs major
+- 2017: starts learning mobile development with react native
+- 2018: publishes first app in play store
+- 2018: publishes lessphone in play store
 - 2018 jun: makes first dollar from the internet
-- 2018 aug: Unbox therapy covers lessphone on channel, makes first $1000
+- 2018 aug: unbox therapy covers lessphone on channel, makes first $1000
 - 2018 aug: creates kerala flood map to locate people stranded in floods of kerala
-- 2020 mar: creates a CRM to manage patients during the start of the pandemic, first
+- 2020 mar: creates a crm to manage patients during the start of the pandemic, first
 time being covered by news.
-- 2020 nov: gets first job as a Mobile Developer with [buymeacoffee.com]()
+- 2020 nov: gets first job as a mobile developer with [buymeacoffee.com]()
 - 2021 mar: starts working on [indiepaper.me]
 - 2021 apr: incorporates [indiepaper.me]
-- 2021 oct: release indiepaper on Hacker News
+- 2021 oct: release indiepaper on hacker news
 - 2021 oct: quit job at [buymeacoffee.com]
-- 2022 jan: release indiepaper on Product Hunt
+- 2022 jan: release indiepaper on product hunt
 - 2022 feb: start working on a secret thing
