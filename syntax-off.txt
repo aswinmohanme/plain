@@ -30,8 +30,6 @@ really great monochrome no-frills syntax theme. I made some minor tweaks and off
 I went on the white text on the black background route and surprisingly feel in
 love with it.
 
-![Minimal spacemacs setup with elixir](/images/emacs_screenshot.png)
-
 
 * What has changed ?
 Much to my surprise I experienced most of the benefits explained in the posts.
