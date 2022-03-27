@@ -16,7 +16,7 @@ Timeline
 - 2014: starts my first website [bloggytricks.in]()
 - 2014: starts learning to code with c++ from the new boston youtube channel
 - 2015: makes my first programming language
-- 2016: makes my first operating system as an high school project
+- 2015: makes my first operating system as an high school project
 - 2016: graduates top of state in computer science
 - 2016: joins college of engineering chengannur with cs major
 - 2017: starts learning mobile development with react native
