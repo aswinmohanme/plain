@@ -1,1 +1,2 @@
-((text-mode . (toggle-text-mode-auto-fill)))
+((nil . ((fill-column . 80)
+         (mode . auto-fill))))
