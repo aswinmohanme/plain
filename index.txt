@@ -40,6 +40,12 @@ This means that I can easily edit and serve the marketing pages separtely and
 make it available even when the main site goes down. This post outlines the
 setup.
 
+* 2021-12-16 [The URL is the Web Developer's Best Friend](/url-friend.txt)
+#web, #spa
+Storing the state in URL bar can mitigate UX issues when reconnecting and
+reloading. This small blog posts goes into why you should be storing state that
+handles user flow in the URL.
+
 * 2020-06-23 [Compiling OpenSSL 1.0 for Older Package
 Versions](/compile-old-ssl.txt)
 #openssl, #legacy-code, #code, #python, #elixir, #erlang, #asdf
@@ -61,3 +67,4 @@ adequate then incrementally change and improve the system.
 * 2019-12-08 [Turning Off Syntax Highlighting](/syntax-off.txt)
 #code, #workflow
 My experience with turning off syntax highlighting for my code editor.
+
