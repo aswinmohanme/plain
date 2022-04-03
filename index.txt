@@ -16,9 +16,10 @@ handcrafted by someone interested in code, design and life
 How to Read this Blog
 ---------------------
 This blog is made up of a collection of text files, hence no clickable links.
-All links are in the format [Link Title](url). If the url is relative, paste it
-after the root domain to go the right page. If it is absolute, replace the
-entire URL. You can use `ctrl + l` or `cmd + l` to edit the address bar.
+It's also best read at 110% zoom. All links are in the format [Link Title](url).
+If the url is relative, paste it after the root domain to go the right page. If
+it is absolute, replace the entire URL. You can use `ctrl + l` or `cmd + l` to
+edit the address bar.
 
 All posts are summarised here with tags. Search for the tags with the browser
 find function, eg: #best to find the best posts.
