@@ -9,7 +9,7 @@ I came across a
 on ElixirForum that highlighted how everyone was using LiveView in their
 production apps. It also had some blog posts about using LiveView in production.
 Since IndiePaper is a Phoenix LiveView app, I thought it would be nice to share
-my expereince with it.
+my experience with it.
 
 
 Context
@@ -43,18 +43,54 @@ and [Testing LiveView](www.testingliveview.com/) and started learning.
 After a while I finished setting up the uploads feature. Then I converted one
 page just for the fun of it and was instantly hooked. I ended up converting the
 entire app to Phoenix LiveView pages, including a complex realtime editor.
+LiveView wasn't chosen, I used it, I loved it and used it again.
 
 
 The Great Parts
 ---------------
+For any tech to be adopted widely, it should be exponentially better than it's
+predecessors and current competition (except if you're javascript). Phoenix
+LiveView is a step up from everything that has come until now, and it owes it to
+the improved connections and new deployment strategies.
+
+* Testing
+The best thing I loved about LiveView is testing, especially integration
+testing. I used to write integration tests with Wallaby which ran the tests in a
+headless browser. This lead to slow tests and flaky tests, even with parallel
+tests and error recovery. LiveView runs tests without instantiating a browser.
+It handles clicks, redirects, and form events. This leads to fast and stable
+tests.
+
+* SPA without SPA
+This is the major selling point of LiveView and it holds that promise well.
+Single Page Apps with a REST or GraphQL backend requires a lot of extra code at
+the middle where the communication happens. With LiveView your app acts with
+almost the same performance and UX of a well built SPA without the need for API
+interfaces. You specify the data in the templates and it does the rest.
+
+* Javascript Hooks
+Interop with Javascript is done through hooks. They enable you to "hook" into
+various lifecycle events of the LiveView process. Unlike other frameworks where
+escape hatches are an afterthought, hooks are well designed. For IndiePaper I
+made a text editor using TipTap and was able to convert the entire page from Vue
+to hooks with the hooks version being more capable and better.
+
+* Performance
+With the new `live_session` helper, we can bundle together liveviews and the
+navigation happens through the same webhook. This is insanely fast. Page
+navigations happen in under 100ms.
 
 
 The Good Parts
 --------------
+These are the things that I liked and would never give up.
+
+* Form Recovery
 
 
 The Bad Parts
 -------------
+Every technical choice has it's downsides.
 
 
 The Fuck This Parts
