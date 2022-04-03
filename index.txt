@@ -27,7 +27,7 @@ find function, eg: #best to find the best posts.
 All Posts
 ---------
 * 2022-03-23 [Phoenix LiveView in Production](/liveview-production.txt)
-#in_progress, #indie_paper, #elixir, #phoenix, #live_view
+#indie_paper, #elixir, #phoenix, #live_view
 I used Phoenix LiveView in Production for my last startup IndiePaper. This blog
 post outlines why I used LiveView, issues I came across, the good parts and
 gotchas to look out for.

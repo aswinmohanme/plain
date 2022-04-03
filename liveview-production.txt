@@ -1,5 +1,5 @@
 
-2022-03-23, Work in Progress
+2022-03-23
 
 
 Phoenix LiveView in Production
@@ -53,8 +53,16 @@ predecessors and current competition (except if you're javascript). Phoenix
 LiveView is a step up from everything that has come until now, and it owes it to
 the improved connections and new deployment strategies.
 
+* Elixir Phoenix
+Elixir and Phoenix is the best part about LiveView. Elixir is a recent language
+and hence do not have the hairy legacy that older languages. It has beautiful
+patterns, beautiful constructs and beautiful tools that make working with it a
+beautiful experience. Phoenix as a framework is highly performant even with
+small system configurations, and that sub 10ms response time is a major factor
+why LiveView has a usable experience.
+
 * Testing
-The best thing I loved about LiveView is testing, especially integration
+The second best thing I loved about LiveView is testing, especially integration
 testing. I used to write integration tests with Wallaby which ran the tests in a
 headless browser. This lead to slow tests and flaky tests, even with parallel
 tests and error recovery. LiveView runs tests without instantiating a browser.
@@ -77,21 +85,59 @@ to hooks with the hooks version being more capable and better.
 
 * Performance
 With the new `live_session` helper, we can bundle together liveviews and the
-navigation happens through the same webhook. This is insanely fast. Page
+navigation happens through the same websocket. This is insanely fast. Page
 navigations happen in under 100ms.
 
 
 The Good Parts
 --------------
-These are the things that I liked and would never give up.
+These are the things that I liked and would never give up, even though these
+were the reason I would switch to LiveView.
 
 * Form Recovery
+Phoenix LiveView requires internet connection to function. But sometimes
+internet gets disconnected. This can be frusturating when the person is
+filling a form, because on reconnection Phoenix restores the last known data. If
+you have a `handle_event` setup with your LiveView, the form state gets
+automatically synced with the server.
 
 
 The Bad Parts
 -------------
-Every technical choice has it's downsides.
+Every technical choice has it's downsides, and LiveView is no exception.
+
+* Requires Internet Connection
+LiveView requires an active internet connection to work properly. This might not
+be an issue for 90% of people, but if you're domain requires offline access,
+LiveView might not be a better fit. This might be a temporary problem as work is
+being done to add more offline capabilities to LiveView.
+
+* Almost Maturing Ecosystem
+I hate to put this as a negative, but as LiveView is a young framework, it has
+not many resources to learn from for beginners. Although the community is small,
+it's really active and welcoming, so this won't be a problem for long.
 
 
 The Fuck This Parts
 -------------------
+Gladly nothing yet. I love Phoenix LiveView, in almost 5 months with LiveView I
+have never come across a scenario where I just put my hands up and thought about
+switching to another framework.
+
+
+The Hopeful Parts
+-----------------
+Things I wish the LiveView ecosystem would have, but doesn't or shouldn't.
+
+* Mobile
+It would be nice to have a way to run LiveView as a native app on mobile. I
+recently made a React Native app with a Phoenix backend and I was put off by the
+amount of middleware code I had to write to get the data and display it. It
+would be great if we could write a LiveView app that updated a React Native
+based mobile app.
+
+
+This might sound like a hype post for LiveView, and it would be partially true.
+I loved using Phoenix LiveView for IndiePaper and If I had to start over again I
+would choose it again. It has it's shortcomings, sure, but it has the least
+shortcomings of any framework I have used. Try it out, you might surprise yourself.
