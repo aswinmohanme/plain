@@ -8,6 +8,7 @@ Kerala, India
 
 * Contact
   - Email: hey@aswinmohan.me
+  - Phone: +91 8589931950
 
 * Socials
   - Github: https://github.com/aswinmohanme
@@ -26,27 +27,27 @@ State Topper in Computer Science(100/100)
 Technical Skills
 ----------------
 * Areas
-  - Fontend (3y+)
-  - Backend (2y+)
-  - Mobile Development (5y+)
-  - Design (6y+)
+  - Fontend
+  - Backend
+  - Mobile Development
+  - Design
 
 * Programming Languages
-  - Elixir (2y+)
-  - Javascript/Typescript (5y+)
-  - Dart (3y+)
+  - Elixir
+  - Javascript/Typescript
+  - Dart
+  - Ruby
   - Python
   - C/C++
 
 * Frameworks and Technologies
-  - Phoenix (LiveView) (2y+)
-  - React (3y+)
-  - NextJS (1y+)
-  - React Native (5y+)
-  - Rails (1y+)
-  - Vue (1y+)
-  - Flutter (3y+)
-  - TailwindCSS (2y+)
+  - Phoenix (LiveView)
+  - React, NextJS
+  - React Native
+  - Rails
+  - Vue
+  - Flutter
+  - TailwindCSS
   - PostgreSQL
   - Firebase
   - REST, GraphQL
