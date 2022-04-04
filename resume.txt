@@ -1,0 +1,58 @@
+
+2022-04-03
+
+
+Aswin Mohan
+===========
+Kerala, India
+
+* Contact
+  - Email: hey@aswinmohan.me
+
+* Socials
+  - Github: https://github.com/aswinmohanme
+  - Twitter: https://twitter.com/aswinmohanme
+
+
+Education
+---------
+* College of Engineering Chengannur, Aug 2016 - June 2020
+B.Tech in Computer Science
+
+* Kendriya Vidyalaya Adoor, Mar 2004 - Mar 2016
+State Topper in Computer Science(100/100)
+
+
+Technical Skills
+----------------
+* Areas
+  - Fontend (3y+)
+  - Backend (2y+)
+  - Mobile Development (5y+)
+  - Design (6y+)
+
+* Programming Languages
+  - Elixir (2y+)
+  - Javascript/Typescript (5y+)
+  - Dart (3y+)
+  - Python
+  - C/C++
+
+* Frameworks and Technologies
+  - Phoenix (LiveView) (2y+)
+  - React (3y+)
+  - NextJS (1y+)
+  - React Native (5y+)
+  - Rails (1y+)
+  - Vue (1y+)
+  - Flutter (3y+)
+  - TailwindCSS (2y+)
+  - PostgreSQL
+  - Firebase
+  - REST, GraphQL
+
+* Tools and Methodologies
+  - Git
+  - Linux
+  - Docker
+  - Test Driven Development

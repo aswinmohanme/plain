@@ -1,10 +1,15 @@
 
 2022-04-03
 
+
 Only Text
 =========
 This blog is only text files. It has no HTML, no CSS, nor any JavaScript. It's a
 folder of unassuming text files on a server somewhere on the internet.
+
+
+Why
+---
 
 
 Spec
