@@ -7,18 +7,17 @@ Phoenix LiveView in Production
 I came across a
 [thread](elixirforum.com/t/are-you-all-in-on-liveview-how-are-you-using-it/41628/14)
 on ElixirForum that highlighted how everyone was using LiveView in their
-production apps. It also had some blog posts about using LiveView in production.
-Since IndiePaper is a Phoenix LiveView app, I thought it would be nice to share
-my experience with it.
+production apps. Since IndiePaper is a Phoenix LiveView app, I thought it would
+be nice to share my experience with it.
 
 
 Context
 -------
-Before we jump right in, it would be wise to share about who I am and specifics
-about the project. I'm a single developer working on IndiePaper. It is a book
-publishing platform, where authors can write out their book in our online text
-editor and we typeset beautiful PDF books from them. The app is a simple CRUD
-app with auth, uploads and a custom typesetting engine.
+Before we jump right in, it's better to have some context about me and about the
+project. I'm a single developer working on IndiePaper. It is a book publishing
+platform, where authors can write out their book in an online text editor and we
+typeset beautiful PDF books from it. The app is a simple CRUD app with auth,
+uploads and a custom typesetting engine.
 
 I used TDD to develop the app and it's deployed on [fly.io]().
 
@@ -26,32 +25,33 @@ I used TDD to develop the app and it's deployed on [fly.io]().
 Why chose LiveView?
 -------------------
 I wrote the first version of IndiePaper in Phoenix, but it was at a time when I
-didn't knew anything about the framework. I rewrote the entire thing in NextJS
-and Hasura, then in Rails, then using FaunaDB, then in LiveView and then again
-in vanilla Phoenix. This time I knew enough Elixir and Phoenix to actually make
-something useful. I was content with the HTTP reloads and it was working well.
+didn't know anything about the framework. I rewrote the entire app in NextJS and
+Hasura, then in Rails, then using FaunaDB, then in LiveView and finally in in
+vanilla Phoenix. This time around I knew enough Elixir and Phoenix to actually
+make something useful. I was content with the full page reloads and it was working
+well.
 
 After some features was complete I wanted to add file uploads for book promo
 images. Even though there were well built packages for handling uploads, I was
 intrigued by the [File Uploads in
 LiveView](www.youtube.com/watch?v=PffpT2eslH8) video by Chris. I tried
-implementing it, but it didn't work because I didn't knew anything about
+implementing it, but it didn't work out because I didn't know anything about
 LiveView. So I bought a [Programming Phoenix
 LiveView](pragprog.com/titles/liveview/programming-phoenix-liveview/)
-and [Testing LiveView](www.testingliveview.com/) and started learning.
+and [Testing LiveView](www.testingliveview.com/) and started learning about it.
 
 After a while I finished setting up the uploads feature. Then I converted one
-page just for the fun of it and was instantly hooked. I ended up converting the
-entire app to Phoenix LiveView pages, including a complex realtime editor.
-LiveView wasn't chosen, I used it, I loved it and used it again.
+more page just for the sake of it and was instantly hooked. I ended up
+converting the entire app to Phoenix LiveView, including a complex realtime
+editor. LiveView wasn't chosen, I used it, loved it and used it again.
 
 
 The Great Parts
 ---------------
 For any tech to be adopted widely, it should be exponentially better than it's
 predecessors and current competition (except if you're javascript). Phoenix
-LiveView is a step up from everything that has come until now, and it owes it to
-the improved connections and new deployment strategies.
+LiveView is a step up from everything that has come until now, with great
+just enough abstractions and great developer experience.
 
 * Elixir Phoenix
 Elixir and Phoenix is the best part about LiveView. Elixir is a recent language
@@ -64,7 +64,7 @@ why LiveView has a usable experience.
 * Testing
 The second best thing I loved about LiveView is testing, especially integration
 testing. I used to write integration tests with Wallaby which ran the tests in a
-headless browser. This lead to slow tests and flaky tests, even with parallel
+headless browser. This lead to slow and flaky tests, even with parallel
 tests and error recovery. LiveView runs tests without instantiating a browser.
 It handles clicks, redirects, and form events. This leads to fast and stable
 tests.
@@ -86,13 +86,13 @@ to hooks with the hooks version being more capable and better.
 * Performance
 With the new `live_session` helper, we can bundle together liveviews and the
 navigation happens through the same websocket. This is insanely fast. Page
-navigations happen in under 100ms.
+navigations happen in under 100ms using from India with the server in US.
 
 
 The Good Parts
 --------------
 These are the things that I liked and would never give up, even though these
-were the reason I would switch to LiveView.
+were not the reason I would switch to LiveView.
 
 * Form Recovery
 Phoenix LiveView requires internet connection to function. But sometimes
@@ -100,6 +100,12 @@ internet gets disconnected. This can be frusturating when the person is
 filling a form, because on reconnection Phoenix restores the last known data. If
 you have a `handle_event` setup with your LiveView, the form state gets
 automatically synced with the server.
+
+* Free Websocket
+You get a full functional bi-driectional websocket with good abstractions for
+free. For the realtime text editor, rather than implementing a complex system
+wiht Redis and syncing, I created a json diff and sent the data through the
+websocket with `pushEvent` function.
 
 
 The Bad Parts
@@ -109,7 +115,7 @@ Every technical choice has it's downsides, and LiveView is no exception.
 * Requires Internet Connection
 LiveView requires an active internet connection to work properly. This might not
 be an issue for 90% of people, but if you're domain requires offline access,
-LiveView might not be a better fit. This might be a temporary problem as work is
+LiveView might not be a good fit. This might be a temporary problem as work is
 being done to add more offline capabilities to LiveView.
 
 * Almost Maturing Ecosystem
