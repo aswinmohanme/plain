@@ -1,6 +1,6 @@
 
-[Aswin Mohan](aswinmohan.me)
-============================
+Aswin Mohan
+===========
 handcrafted by someone interested in code, design and life
 
 * Contact
@@ -11,7 +11,6 @@ handcrafted by someone interested in code, design and life
 * Navigation
   - [about](/about.txt)
   - [now](/now.txt)
-  - [only text](./only.txt)
 
 
 How to Read this Blog
@@ -23,7 +22,8 @@ it is absolute, replace the entire URL. You can use `ctrl + l` or `cmd + l` to
 edit the address bar.
 
 All posts are summarised here with tags. Search for the tags with the browser
-find function, eg: #best to find the best posts.
+find function, eg: #best to find the best posts. If you want to know why I'm
+doing this read [only text](./only.txt).
 
 
 All Posts
