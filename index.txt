@@ -23,12 +23,12 @@ edit the address bar.
 
 All posts are summarised here with tags. Search for the tags with the browser
 find function, eg: #best to find the best posts. If you want to know why I'm
-doing this read [only text](./only.txt).
+doing this read [only text](/only.txt).
 
 
 All Posts
 ---------
-* 2022-04-06 [Only Text](./only.txt)
+* 2022-04-06 [Only Text](/only.txt)
 #best, #blog, #plain_text
 I go deep why this blog is written in plain text, what I'm planning to do with
 it, and a spec for how this blog is structured.
