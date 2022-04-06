@@ -11,6 +11,7 @@ handcrafted by someone interested in code, design and life
 * Navigation
   - [about](/about.txt)
   - [now](/now.txt)
+  - [only text](./only.txt)
 
 
 How to Read this Blog
@@ -27,6 +28,11 @@ find function, eg: #best to find the best posts.
 
 All Posts
 ---------
+* 2022-04-06 [Only Text](./only.txt)
+#best, #blog, #plain_text
+I go deep why this blog is written in plain text, what I'm planning to do with
+it, and a spec for how this blog is structured.
+
 * 2022-03-23 [Phoenix LiveView in Production](/liveview-production.txt)
 #indie_paper, #elixir, #phoenix, #live_view
 I used Phoenix LiveView in Production for my last startup IndiePaper. This blog

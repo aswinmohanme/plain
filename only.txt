@@ -1,20 +1,122 @@
 
-2022-04-03
+2022-04-06
 
 
 Only Text
 =========
 This blog is only text files. It has no HTML, no CSS, nor any JavaScript. It's a
-folder of unassuming text files on a server somewhere on the internet.
+folder of unassuming text files on a server somewhere on the internet. It
+doesn't even have clickable links, you navigate by changing the URL manually and
+hoping for the best. This seems backwards and unnecessary and in this post, I'll
+explain why you're most probably right. I'll also explain why I'm doing this,
+the advantages, plans and a spec if you want to do the same to your blog.
 
 
 Why
 ---
+The current web is useful but complex. The current level of interactivity
+warrants such complexity. But we have to ask if we warrant such
+interactivity. A blog at its core is just a collection of documents. I looked
+around for the simplest way to write documents and share them on the internet, and I
+settled on plain HTML pages with no CSS. While writing my HTML documents, I
+realised nothing is stopping me from adding CSS, JS and anything else in
+the future. I wanted to deny myself that
+[affordance](https://www.interaction-design.org/literature/topics/affordances).
+That's when I decided to write my blog as a collection of text files.
+That was the reason for starting this, these are the reasons for keeping it that way.
+
+* Anti Excess
+The modern web is excess in every possible direction. That is the price for
+evolving collaboratively and being incredibly useful. It's not uncommon for
+Single Page Apps ship with megabytes of bundled Javascript. That bundle size
+might be justifiable for Figma, but for my blog, I felt it would be an excess. I
+wanted the simplest way to deliver my writing to people who want to read it and
+a text file was the second choice right behind writing on paper and putting it
+up on a wall.
+
+* Plain
+It's just plain text. The entire formatting is contained in the file itself. You
+do not need a parser or a rendering engine to read this file how it was meant to
+be read. It can be read by every text editor, text based browsers, and 40 year
+old hardware, so I'm betting this can be read 400 years from now too.
+
+* WYSIWYG
+When I was writing my old blog, I'd have to open a console and run the engine
+locally to see how my post would turn out. Even though hot reload made the
+changes instantaneous, I'd still have to tab away and look. Now the file I'm
+editing is the output itself. I can see and format the file itself, and how I
+see it will be exactly how other will see it too. This makes me concentrate more
+on the writing itself. There is also no build step, you edit the text files and
+push it when you're done.
+
+* Parsable
+Even though the content is written in plain text, it's written in adhereance to
+a defined spec for future changes. With a minimal surface to parse, I can hand
+roll a parser and easily convert to a PDF if I want to.
 
 
 Spec
 ----
+I have decided to keep the spec minimal and do the rest as a format. The spec
+should be followed for future parsers, and the format is for human readers.
+
+* Links
+The site is a collection of text files in a flat directory.
+  - [link text](https://full-url.com)
+  - [link text](./relative-url-to-current-file)
+  - [url]()
+
+* Heading
+  - Primary Heading (H1)
+    ```
+    Heading
+    =======
+    ```
+  - Secondary Heading
+    ```
+    Heading
+    -------
+    ```
+  - Headings
+    ```
+    * H3
+    ** H4
+    *** H5
+    **** H6
+    ```
+
+* CodeBlocks
+  - Codeblocks have `inline-code`
+    ```
+    multiline
+    codeblock
+    ```
+
+* Lists
+  - list item 1
+  - list item 2
 
 
 Format
 ------
+This is to make the file more scannable for human readers.
+
+- Lines should be hard broken at 80char width
+- Double line breaks between Primary and Secondary Heading
+- Single line breaks between other headings
+
+
+Future
+------
+I really have fun wiriting this blog in plain text. I just open up my editor
+write and format the text how I want it to and just publish it. There is no
+fiddling endlessly to make something look marginally better, no hard feelings
+about comparing my writing to others. Personally this is a win, and I have even
+better plans for the future.
+
+Since this is just text, we can easily parse and show this on the console, and
+since this is just text, we can easily transmit this. I'm thinking about
+building a distributed protocol for text based blogs, kind of on the side of the
+internet, away from all the noise of the real world. A small corner of the
+digital space for people who love plain text and plain writing and plain simple
+things. This is just an idea going on in my heads, but let's see how that goes.

@@ -1,0 +1,14 @@
+
+
+Code the Perimeter and not the Matrix
+=====================================
+One of the most influential videos on programming I have ever watched is the
+talk [Unix and Google](https://www.youtube.com/watch?v=3Ea3pkTCYx4). It
+introduces a new kind of
+
+
+Rippling
+--------
+One of my favorite companies is Rippling. In it's interviews the founder says
+how the entire data model is based on people, and how this has enabled them to
+build out great things.
