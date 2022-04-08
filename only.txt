@@ -54,6 +54,14 @@ Even though the content is written in plain text, it's written in adhereance to
 a defined spec for future changes. With a minimal surface to parse, I can hand
 roll a parser and easily convert to a PDF if I want to.
 
+* End of Civilization
+I'm a definite optimist and believe that we can improve the world if we try our
+best. I'm also aware of the fact that a small number of probable events may lead
+to the collapse of civilization as we know it. If something like that happens
+all the institutional knowledge about computing systems will be lost. When we
+rebuild, one of the first things will be a way to read and write text. I want my
+writings to be there still.
+
 
 Spec
 ----
